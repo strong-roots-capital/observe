@@ -39,6 +39,7 @@ es.emit('eventA')
 Related
 -------
 
+*   [event-source](https://github.com/strong-roots-capital/event-source)
 *   [Observable](https://github.com/strong-roots-capital/observable)
 
 Acknowledgments
@@ -66,7 +67,7 @@ Acknowledgments
 
 ▸ **observe**(eventSource: *`EventSource`*, callback: *`any`*): [Observer](interfaces/observer.md)
 
-*Defined in [observe.ts:30](https://github.com/strong-roots-capital/observe/blob/94e4e89/src/observe.ts#L30)*
+*Defined in [observe.ts:30](https://github.com/strong-roots-capital/observe/blob/22185e5/src/observe.ts#L30)*
 
 Observe specified EventSource.
 
