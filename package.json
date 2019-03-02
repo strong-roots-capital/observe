@@ -40,7 +40,10 @@
   },
   "homepage": "https://github.com/strong-roots-capital/observe",
   "dependencies": {
+    "@strong-roots-capital/event-source": "^1.0.2",
     "@types/node": "^10.12.18",
+    "debug": "^4.1.1",
+    "supports-color": "^6.1.0",
     "typescript": "^3.2.2"
   },
   "devDependencies": {

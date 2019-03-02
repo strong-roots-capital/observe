@@ -12,13 +12,30 @@ npm install @strong-roots-capital/observe
 
 ``` typescript
 import observe from '@strong-roots-capital/observe'
-// TODO: describe usage
+import { EventSource } from '@strong-roots-capital/event-source'
+
+function callback() {
+    console.log('In callback')
+}
+
+const es = new EventSource()
+const observer = observe(es,callback)
+
+es.emit('eventA')
+//=> In callback
+
+es.emit('eventB')
+//=> In callback
+
+observer.dispose()
+
+es.emit('eventA')
 ```
 
 ## Related
 
-TODO
+- [Observable](https://github.com/strong-roots-capital/observable)
 
 ## Acknowledgments
 
-TODO
+- [Deprecating the Observer Pattern with Scala.React](https://infoscience.epfl.ch/record/176887/files/DeprecatingObservers2012.pdf)
