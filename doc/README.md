@@ -66,7 +66,7 @@ Acknowledgments
 
 ▸ **observe**(eventSource: *`EventSource`*, callback: *`any`*): [Observer](interfaces/observer.md)
 
-*Defined in [observe.ts:30](https://github.com/strong-roots-capital/observe/blob/8dc3f46/src/observe.ts#L30)*
+*Defined in [observe.ts:30](https://github.com/strong-roots-capital/observe/blob/cb1c0c7/src/observe.ts#L30)*
 
 Observe specified EventSource.
 
