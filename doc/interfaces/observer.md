@@ -24,7 +24,7 @@ Provides a clean-up mechanism.
 
 **● dispose**: *`function`*
 
-*Defined in [observe.ts:20](https://github.com/strong-roots-capital/observe/blob/cb1c0c7/src/observe.ts#L20)*
+*Defined in [observe.ts:20](https://github.com/strong-roots-capital/observe/blob/94e4e89/src/observe.ts#L20)*
 
 Removes callback on event-emitter.
 
