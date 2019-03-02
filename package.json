@@ -1,6 +1,6 @@
 {
   "name": "@strong-roots-capital/observe",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Observe and react to an EventSource",
   "main": "dist/observe.js",
   "types": "dist/observe.d.ts",
