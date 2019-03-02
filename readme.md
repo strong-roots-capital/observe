@@ -34,6 +34,7 @@ es.emit('eventA')
 
 ## Related
 
+- [event-source](https://github.com/strong-roots-capital/event-source)
 - [Observable](https://github.com/strong-roots-capital/observable)
 
 ## Acknowledgments
